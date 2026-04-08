@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivitySend">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login from"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/Ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/Ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name:"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/Ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No:"
+
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/Ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id:"
+        android:textSize="30dp" />
+    <EditText
+        android:id="@+id/Ed5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press"
+        android:textSize="35sp" />
+
+
+</LinearLayout>

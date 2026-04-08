@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="176dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Hello World1"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:id="@+id/t2"
+        android:layout_width="176dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="Hello World2"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Ed1"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter name:"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/btnpress"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="Press"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="20sp"
+
+        />
+    <Button
+        android:id="@+id/Data"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:textSize="20sp"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        >
+
+        <Button
+            android:id="@+id/SMS"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/ListView1"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="9dp"
+            android:text="ListView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ACTV"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="164dp"
+            android:text="ACTV"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/WV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:text="WebView"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="17dp"
+            android:text="Login"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/vv"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="15dp"
+            android:text="VideoView"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/RV"
+            android:layout_width="124dp"
+            android:layout_height="52dp"
+            android:text="RecycleView"
+            android:textSize="10sp" />
+        <Button
+        android:id="@+id/OM"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Option Menu"
+        android:textSize="10dp" />
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+
+        >
+
+
+        <Button
+            android:id="@+id/context"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Context Menu"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/OC"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="146dp"
+            android:text="Menu"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Tween"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="2dp"
+            android:text="Tween"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/RV2"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="49dp"
+            android:text="Recycle Video"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/SP"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="144dp"
+            android:layout_marginBottom="50dp"
+            android:text="ShareP"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
